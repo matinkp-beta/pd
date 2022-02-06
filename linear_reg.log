@@ -1,0 +1,42 @@
+ 2022-02-06 21:12:18,183  
+ CS_y_4 Linear regression: 
+ dataset shape: (1000, 3853) 
+ Mean squared error: 132448.72061290097 
+ samples: 3853 
+ --------------------------------- 
+
+ 2022-02-06 21:13:02,340  
+ CS_y_4 Linear regression: 
+ dataset shape: (1000, 3853) 
+ Mean squared error: 235331.7581340143 
+ samples: 1927 
+ --------------------------------- 
+
+ 2022-02-06 21:34:29,875  
+ CS_z_4 Linear regression: 
+ dataset shape: (1000, 3861) 
+ Mean squared error: 110301.96819180249 
+ samples: 3861 
+ --------------------------------- 
+
+ 2022-02-06 21:53:04,012  
+ CS_x_4 Linear regression: 
+ dataset shape: (1000, 3835) 
+ Mean squared error: 137059.8388368327 
+ samples: 3835 
+ --------------------------------- 
+
+ 2022-02-06 21:53:32,489  
+ CS_x_4 Linear regression: 
+ dataset shape: (1000, 3835) 
+ Mean squared error: 140371.95264532676 
+ samples: 1918 
+ --------------------------------- 
+
+ 2022-02-06 21:54:25,686  
+ CS_z_4 Linear regression: 
+ dataset shape: (1000, 3861) 
+ Mean squared error: 186193.28399168444 
+ samples: 1931 
+ --------------------------------- 
+
