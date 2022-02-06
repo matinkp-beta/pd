@@ -1,2 +1,21 @@
-15:50:37,361 root INFO this is a test info
-15:52:01  this is a test info
+16:57:39  
+ CS1 Linear regression: 
+ dataset shape: (500, 3925) 
+ Mean squared error: 98895.73460215809 
+ samples: 3925 
+ --------------------------------- 
+
+2022-02-06 16:58:24,264  
+ CS1 Linear regression: 
+ dataset shape: (500, 3925) 
+ Mean squared error: 92525.04313550172 
+ samples: 1963 
+ --------------------------------- 
+
+ 2022-02-06 16:58:55,164  
+ CS1 Linear regression: 
+ dataset shape: (500, 3925) 
+ Mean squared error: 127254.12119784237 
+ samples: 1309 
+ --------------------------------- 
+

@@ -98,4 +98,7 @@ max_time,data=get_min_length(address,num_of_res)
 sample_rate,data=cut_time_and_min_sample(max_time,data,num_of_res)
 dataframe = create_dataframe(sample_rate,data,num_of_res)
 os.system(clear)
+name_of_dataset = input("please input name of dataset: ")
+dataframe.to_csv(f"./{name_of_dataset}.csv",index=False)
+
 dataframe.head()
