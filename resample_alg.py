@@ -93,7 +93,7 @@ def create_dataframe(sample_rate:int,data,res_num: int):
     return dataframe
 
 address = "data"
-num_of_res = 500
+num_of_res = 477
 max_time,data=get_min_length(address,num_of_res)
 sample_rate,data=cut_time_and_min_sample(max_time,data,num_of_res)
 dataframe = create_dataframe(sample_rate,data,num_of_res)

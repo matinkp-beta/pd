@@ -1,0 +1,28 @@
+ 2022-02-06 17:26:58,417  
+ CS2 Linear regression: 
+ dataset shape: (477, 3939) 
+ Mean squared error: 13565.194773150555 
+ samples: 3939 
+ --------------------------------- 
+
+ 2022-02-06 17:27:12,743  
+ CS2 Linear regression: 
+ dataset shape: (477, 3939) 
+ Mean squared error: 14148.502955931917 
+ samples: 1970 
+ --------------------------------- 
+
+ 2022-02-06 17:27:27,366  
+ CS2 Linear regression: 
+ dataset shape: (477, 3939) 
+ Mean squared error: 16671.73060491322 
+ samples: 1313 
+ --------------------------------- 
+
+ 2022-02-06 17:27:37,992  
+ CS2 Linear regression: 
+ dataset shape: (477, 3939) 
+ Mean squared error: 19106.599894941937 
+ samples: 985 
+ --------------------------------- 
+

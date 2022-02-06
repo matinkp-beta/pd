@@ -22,13 +22,8 @@ logging.basicConfig(filename="linear_reg.log",
                             level=logging.DEBUG)
 
 
-df = pd.read_csv("./cs1.csv")
-y = pd.DataFrame(index=range(500))
-y.reset_index(drop=True,inplace=True)
+df = pd.read_csv("./cs2.csv")
 
-y["x"] = pd.read_csv("./target/x_str.txt",header=None)
-y["y"] = pd.read_csv("./target/y_str.txt",header=None)
-y["z"] = pd.read_csv("./target/z_str.txt",header=None)
 
 print(df.shape)
 n_coff_decimate = int(input("enter n_coff_decimate: "))
@@ -36,6 +31,12 @@ resamle=signal.decimate(df,n_coff_decimate)
 df_orgin= pd.DataFrame(resamle, columns = range(len(resamle[0])))
 l,s=df_orgin.shape
 print(l,s)
+y = pd.DataFrame(index=range(l))
+y.reset_index(drop=True,inplace=True)
+
+y["x"] = pd.read_csv("./target/x_str.txt",header=None)
+y["y"] = pd.read_csv("./target/y_str.txt",header=None)
+y["z"] = pd.read_csv("./target/z_str.txt",header=None)
 X_train, X_test, y_train, y_test = train_test_split( df_orgin, y, test_size=0.20)
 
 param_list = {"hidden_layer_sizes": [(1,),(50,)], "activation": ["tanh", "relu"], "solver": ["lbfgs", "sgd", "adam"], "alpha": [0.00005,0.0005]}
@@ -68,4 +69,4 @@ print('Coefficient of determination: %.2f'
       % r2_score(y_test, y_pred))
 print(regr.score(X_test,y_test))
 
-logging.info(f"\n CS1 Linear regression: \n dataset shape: {df.shape} \n Mean squared error: {mean_squared_error(y_test, y_pred)} \n samples: {s} \n --------------------------------- \n")
+logging.info(f"\n CS2 Linear regression: \n dataset shape: {df.shape} \n Mean squared error: {mean_squared_error(y_test, y_pred)} \n samples: {s} \n --------------------------------- \n")
