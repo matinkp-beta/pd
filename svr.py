@@ -2,7 +2,7 @@ import logging
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-
+import sys
 
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.svm import SVR
@@ -21,7 +21,7 @@ logging.basicConfig(filename="svr.log",
                             
                             level=logging.DEBUG)
 
-cs = int(input("please enter number of your cs"))
+cs = sys.argv[1]
 df = pd.read_csv(f"./cs{cs}.csv")
 
 
