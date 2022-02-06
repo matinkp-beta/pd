@@ -1,0 +1,42 @@
+ 2022-02-06 17:39:28,928  
+ CS3 Linear regression: 
+ dataset shape: (500, 4744) 
+ Mean squared error: 34953.586437167236 
+ samples: 4744 
+ --------------------------------- 
+
+ 2022-02-06 17:40:01,034  
+ CS3 Linear regression: 
+ dataset shape: (500, 4744) 
+ Mean squared error: 34997.46325941978 
+ samples: 2372 
+ --------------------------------- 
+
+ 2022-02-06 17:42:58,725  
+ CS3 Linear regression: 
+ dataset shape: (500, 4744) 
+ Mean squared error: 35854.65418266993 
+ samples: 1582 
+ --------------------------------- 
+
+ 2022-02-06 17:43:26,256  
+ CS3 Linear regression: 
+ dataset shape: (500, 4744) 
+ Mean squared error: 28223.335940286284 
+ samples: 1186 
+ --------------------------------- 
+
+ 2022-02-06 17:44:21,198  
+ CS3 Linear regression: 
+ dataset shape: (500, 4744) 
+ Mean squared error: 37565.8320373621 
+ samples: 949 
+ --------------------------------- 
+
+ 2022-02-06 17:44:38,941  
+ CS3 Linear regression: 
+ dataset shape: (500, 4744) 
+ Mean squared error: 40515.18131827826 
+ samples: 791 
+ --------------------------------- 
+

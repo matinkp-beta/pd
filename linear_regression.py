@@ -21,8 +21,8 @@ logging.basicConfig(filename="linear_reg.log",
                             
                             level=logging.DEBUG)
 
-
-df = pd.read_csv("./cs2.csv")
+cs = int(input("please enter number of your cs"))
+df = pd.read_csv(f"./cs{cs}.csv")
 
 
 print(df.shape)
@@ -69,4 +69,4 @@ print('Coefficient of determination: %.2f'
       % r2_score(y_test, y_pred))
 print(regr.score(X_test,y_test))
 
-logging.info(f"\n CS2 Linear regression: \n dataset shape: {df.shape} \n Mean squared error: {mean_squared_error(y_test, y_pred)} \n samples: {s} \n --------------------------------- \n")
+logging.info(f"\n CS{cs} Linear regression: \n dataset shape: {df.shape} \n Mean squared error: {mean_squared_error(y_test, y_pred)} \n samples: {s} \n --------------------------------- \n")
