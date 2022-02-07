@@ -41,7 +41,7 @@ y["z"] = pd.read_csv("./target/z_str.txt",header=None)
 X_train, X_test, y_train, y_test = train_test_split( df_orgin, y, test_size=0.20)
 
 regr = SVR()
-param_grid = {'C': [0.1, 1, 10, 100, 1000],
+param_grid = {'C': [ 100, 1000,1500,2000],
               'gamma': [1, 0.1, 0.01, 0.001, 0.0001],
               'kernel': ['rbf','poly','linear']}
 
@@ -70,4 +70,4 @@ print('Coefficient of determination: %.2f'
       % r2_score(y_test, y_pred))
 print(regr.score(X_test,y_test))
 
-logging.info(f"\n CS{data_position}_{cs} SVR: {clf.estimators_[0].best_params_ } \n dataset shape: {df.shape} \n Mean squared error: {mean_squared_error(y_test, y_pred)} \n samples: {s} \n --------------------------------- \n")
+logging.info(f"\n CS_{data_position}_{cs} SVR: {clf.estimators_[0].best_params_ } \n dataset shape: {df.shape} \n Mean squared error: {mean_squared_error(y_test, y_pred)} \n samples: {s} \n --------------------------------- \n")
