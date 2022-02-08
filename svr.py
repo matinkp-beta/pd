@@ -41,9 +41,9 @@ y["z"] = pd.read_csv("./target/z_str.txt",header=None)
 X_train, X_test, y_train, y_test = train_test_split( df_orgin, y, test_size=0.20)
 
 regr = SVR()
-param_grid = {'C': [ 100, 1000,1500,2000],
-              'gamma': [1, 0.1, 0.01, 0.001, 0.0001],
-              'kernel': ['rbf','poly','linear']}
+param_grid = {'C': [ 2500,3000,20000],
+              'gamma': [ 0.01,0.001,0.0001],
+              'kernel': ['rbf']}
 
 
 
