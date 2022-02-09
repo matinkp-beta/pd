@@ -46,26 +46,21 @@ X_train, X_test, y_train, y_test = train_test_split( df_orgin, y, test_size=0.20
 regr = XGBRegressor()
 param_grid = {
     'n_estimators': [400, 700, 1000],
-    'colsample_bytree': [0.7, 0.8],
+   # 'colsample_bytree': [0.7, 0.8],
     'max_depth': [15,20,25],
-    'reg_alpha': [1.1, 1.2, 1.3],
-    'reg_lambda': [1.1, 1.2, 1.3],
-    'subsample': [0.7, 0.8, 0.9]
+   # 'reg_alpha': [1.1, 1.2, 1.3],
+   # 'reg_lambda': [1.1, 1.2, 1.3],
+   # 'subsample': [0.7, 0.8, 0.9]
 }
 
 
 
-gs_svr = GridSearchCV(regr,param_grid )
+"""gs_svr = GridSearchCV(regr,param_grid )
 clf =MultiOutputRegressor(gs_svr)
 clf = clf.fit(X_train,y_train)
 print(clf.estimators_[0].best_params_ )
-
-regr = XGBRegressor(n_estimators=clf.estimators_[0].best_params_["n_estimators"],
-                    colsample_bytree=clf.estimators_[0].best_params_["colsample_bytree"],
-                    max_depth=clf.estimators_[0].best_params_["max_depth"],
-                    reg_alpha=clf.estimators_[0].best_params_["reg_alpha"],
-                    reg_lambda=clf.estimators_[0].best_params_["reg_lambda"],
-                    subsample=clf.estimators_[0].best_params_["subsample"]) 
+"""
+regr = XGBRegressor() 
 regr =MultiOutputRegressor(regr)
 regr = regr.fit(X_train,y_train)
 
@@ -87,4 +82,4 @@ print(regr.score(X_test,y_test))
 
 
 
-logging.info(f"\n CS_{data_position}_{cs} XGBoost: {clf.estimators_[0].best_params_ } \n dataset shape: {df.shape} \n Mean squared error: {mean_squared_error(y_test, y_pred)} \n samples: {s} \n --------------------------------- \n")
+logging.info(f"\n CS_{data_position}_{cs} XGBoost: \n dataset shape: {df.shape} \n Mean squared error: {mean_squared_error(y_test, y_pred)} \n samples: {s} \n --------------------------------- \n")

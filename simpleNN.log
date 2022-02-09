@@ -1,0 +1,10 @@
+ 2022-02-09 17:31:58,039  Reloading Oracle from existing project ANN/ANN_tuning/oracle.json
+ 2022-02-09 17:31:58,084  Reloading Tuner from ANN/ANN_tuning/tuner0.json
+ 2022-02-09 18:21:59,628  Oracle triggered exit
+ 2022-02-09 18:22:00,603  
+ CS_x_4 SimpleNN: {'ann_layers': 5, 'unit_0': 507, 'learning_rate': 0.005, 'unit_1': 395, 'unit_2': 9, 'unit_3': 503, 'unit_4': 93, 'unit_5': 143, 'unit_6': 31, 'unit_7': 437, 'unit_8': 415, 'unit_9': 467, 'unit_10': 31, 'unit_11': 233, 'unit_12': 435, 'unit_13': 257, 'unit_14': 169, 'unit_15': 309, 'unit_16': 493, 'unit_17': 81, 'unit_18': 121, 'unit_19': 205} 
+ dataset shape: (1000, 3835) 
+ Mean squared error: [7217.92919921875, 0.6200000047683716] 
+ samples: 427 
+ --------------------------------- 
+
