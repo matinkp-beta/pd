@@ -8,3 +8,19 @@
  samples: 427 
  --------------------------------- 
 
+ 2022-02-09 20:29:54,136  Oracle triggered exit
+ 2022-02-09 20:29:55,136  
+ CS_y_4 SimpleNN: {'ann_layers': 3, 'unit_0': 321, 'learning_rate': 0.005, 'unit_1': 163, 'unit_2': 457, 'unit_3': 381, 'unit_4': 321, 'unit_5': 17, 'unit_6': 265, 'unit_7': 293, 'unit_8': 5, 'unit_9': 17, 'unit_10': 349, 'unit_11': 147, 'unit_12': 49, 'unit_13': 483, 'unit_14': 45, 'unit_15': 127, 'unit_16': 47, 'unit_17': 323, 'unit_18': 465, 'unit_19': 301} 
+ dataset shape: (1000, 3853) 
+ Mean squared error: [7264.10546875, 0.7250000238418579] 
+ samples: 429 
+ --------------------------------- 
+
+ 2022-02-09 21:39:57,327  Oracle triggered exit
+ 2022-02-09 21:39:58,482  
+ CS_z_4 SimpleNN: {'ann_layers': 5, 'unit_0': 377, 'learning_rate': 0.001, 'unit_1': 459, 'unit_2': 159, 'unit_3': 25, 'unit_4': 395, 'unit_5': 477, 'unit_6': 385, 'unit_7': 475, 'unit_8': 259, 'unit_9': 213, 'unit_10': 445, 'unit_11': 311, 'unit_12': 409, 'unit_13': 451, 'unit_14': 41, 'unit_15': 257, 'unit_16': 293, 'unit_17': 373} 
+ dataset shape: (1000, 3861) 
+ Mean squared error: [9598.97265625, 0.7950000166893005] 
+ samples: 429 
+ --------------------------------- 
+
