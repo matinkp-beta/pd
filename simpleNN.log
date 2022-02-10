@@ -1,0 +1,8 @@
+ 2022-02-10 09:20:44,133  Oracle triggered exit
+ 2022-02-10 09:20:45,183  
+ CS_1 SimpleNN: {'ann_layers': 6, 'unit_0': 339, 'learning_rate': 0.001, 'unit_1': 173, 'unit_2': 249, 'unit_3': 429, 'unit_4': 271, 'unit_5': 359, 'unit_6': 503, 'unit_7': 425, 'unit_8': 161, 'unit_9': 495, 'unit_10': 435, 'unit_11': 229, 'unit_12': 393, 'unit_13': 453, 'unit_14': 243} 
+ dataset shape: (500, 3925) 
+ Mean squared error: [4184.59619140625, 0.9200000166893005] 
+ samples: 437 
+ --------------------------------- 
+
